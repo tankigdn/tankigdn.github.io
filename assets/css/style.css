@@ -477,10 +477,11 @@ a:hover {
     text-align: center;
     background: url(/assets/images/header.jpg) no-repeat 50% 0;
     height: 150px;
+    line-height: 40px;
 }
 @media screen and (min-width: 64em) {
     .page-header {
-        padding: 0rem 6rem;
+        padding: 2rem 6rem;
     }
 }
 @media screen and (min-width: 42em) and (max-width: 64em) {
