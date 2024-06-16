@@ -536,26 +536,26 @@ a:hover {
     }
 }
 .page-header {
-    color: #fff;
-    text-align: center;
-    background-color: #159957;
-    background-image: url("/assets/images/header.jpg") no-repeat;
-}
-.page-header:before {
 	background: linear-gradient(to bottom,transparent 0%,rgba(0,0,0,.2) 35%,rgba(0,0,0,.77) 100%);
 }
+.page-header_wrapper {
+    color: #fff;
+    text-align: center;
+    background-color: #1c1c1e;
+    background: url("/assets/images/header.jpg") no-repeat;
+}
 @media screen and (min-width: 64em) {
-    .page-header {
+    .page-header_wrapper {
         padding: 5rem 6rem;
     }
 }
 @media screen and (min-width: 42em) and (max-width: 64em) {
-    .page-header {
+    .page-header_wrapper {
         padding: 3rem 4rem;
     }
 }
 @media screen and (max-width: 42em) {
-    .page-header {
+    .page-header_wrapper {
         padding: 2rem 1rem;
     }
 }
