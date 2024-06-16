@@ -443,6 +443,32 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.button-area {
+	display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+.button-area:hover {
+	text-decoration: none;
+}
+
+.button-area:hover .button {
+    background-position: 0 -44px;
+}
+.button {
+    background: url("/assets/images/button.png") no-repeat;
+    float: left;
+    height: 44px;
+    margin-right: 37px;
+    position: relative;
+    text-decoration: none;
+}
 .btn {
     display: inline-block;
     margin-bottom: 1rem;
