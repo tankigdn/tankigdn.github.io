@@ -492,6 +492,27 @@ a:hover {
         padding: 2rem 1rem;
     }
 }
+.page-header_video-wrapp  {
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    
+}
+.page-header_video-box {
+   position: absolute;
+   top:0;
+   left: 50%;
+   height: 100%;
+}
+.page-header_video {
+    display: inline-block;
+    height: 100%;
+    transform: translateX(-50%);
+    height: 382px;
+}
 .project-name {
     margin-top: 0;
     margin-bottom: 0.1rem;
