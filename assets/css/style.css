@@ -474,8 +474,7 @@ a:hover {
 .page-header {
     color: #fff;
     text-align: center;
-    background-color: #159957;
-    background-image: linear-gradient(120deg, #155799, #159957);
+	background: url("/assets/images/header.jpg") no-repeat 50% 0 #9d9d9d;
 }
 @media screen and (min-width: 64em) {
     .page-header {
@@ -491,27 +490,6 @@ a:hover {
     .page-header {
         padding: 2rem 1rem;
     }
-}
-.page-header_video-wrapp  {
-    position:absolute;
-    top:0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-    
-}
-.page-header_video-box {
-   position: absolute;
-   top:0;
-   left: 50%;
-   height: 100%;
-}
-.page-header_video {
-    display: inline-block;
-    height: 100%;
-    transform: translateX(-50%);
-    height: 382px;
 }
 .project-name {
     margin-top: 0;
