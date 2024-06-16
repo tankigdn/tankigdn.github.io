@@ -471,10 +471,22 @@ a:hover {
     transition: opacity 0.15s ease-out;
     will-change: opacity;
 }
+@media (any-pointer: fine) {
+    .button:hover {
+        color: #f9f5e1;
+        cursor: pointer;
+		text-decoration: none;
+    }
+}
 .button:hover {
     color: #f9f5e1;
     cursor: pointer;
 	text-decoration: none;
+}
+@media (any-pointer: fine) {
+    .button:hover:after {
+        opacity: 1;
+    }
 }
 .button_text {
 	position: relative;
