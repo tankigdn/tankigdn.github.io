@@ -444,8 +444,10 @@ a:hover {
     text-decoration: underline;
 }
 .button-area {
-	display: inline-block;
+    display: inline-block;
     vertical-align: top;
+    *display: inline;
+    *zoom: 1;
     overflow: hidden;
     text-decoration: none;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
@@ -455,11 +457,22 @@ a:hover {
     vertical-align: middle;
 }
 .button-area:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
-
 .button-area:hover .button {
     background-position: 0 -44px;
+}
+.button-area.wait:hover .button {
+    background-position: 0 0;
+}
+.button-area.disabled,
+.button-area.disabled:hover {
+    box-shadow: none;
+    cursor: default;
+}
+.button-area.disabled .button,
+.button-area.disabled:hover .button {
+    background-position: 0 -88px;
 }
 .button {
     background: url("/assets/images/button.png") no-repeat;
