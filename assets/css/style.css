@@ -400,6 +400,7 @@ th {
 body {
     padding: 0;
     margin: 0;
+	color: #595959;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -422,7 +423,7 @@ body {
     outline: thick solid #e19447;
 }
 a {
-    color: #1e6bb8;
+    color: #fe4800;
     text-decoration: none;
 }
 a:hover {
@@ -581,7 +582,7 @@ a:hover {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #159957;
+    color: #383838;
 }
 .main-content p {
     margin-bottom: 1em;
