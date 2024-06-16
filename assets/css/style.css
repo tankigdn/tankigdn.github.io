@@ -552,7 +552,7 @@ a:hover {
 @media screen and (min-width: 64em) {
     .main-content {
         max-width: 64rem;
-        padding: 2rem 6rem;
+        padding: 2rem 2rem;
         margin: 0 auto;
         font-size: 1.1rem;
     }
@@ -593,7 +593,7 @@ a:hover {
 .main-content h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-	font-family: "MTSans Bold";
+	font-family: "MTSans Regular";
     font-weight: normal;
     color: #383838;
 }
