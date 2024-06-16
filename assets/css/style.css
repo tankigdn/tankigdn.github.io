@@ -437,6 +437,8 @@ body {
 a {
     color: #fe4800;
     text-decoration: none;
+	padding-right: 9px;
+	background: url("/assets/images/link_arrow.png") no-repeat 100% 6px;
 }
 a:hover {
     text-decoration: underline;
