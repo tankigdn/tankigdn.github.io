@@ -720,8 +720,7 @@ a:hover {
 }
 .main-content blockquote {
     margin-left: 0;
-    color: #819198;
-    border-left: #454540 2px solid;
+    border-left: #454540 3px solid;
     background-color: rgba(69, 69, 64, .1);
     padding: 20px 30px 14px;
     margin-bottom: 40px;
