@@ -16,9 +16,9 @@
         <header class="page-header" role="banner">
             <h1 class="project-name">{{ page.title | default: site.title }}</h1>
             <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
-            <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-            <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+            <a class="button" href="{{ site.github.repository_url }}"><span class="button_text">View on GitHub</span></a>
+            <a class="button" href="{{ site.github.zip_url }}"><span class="button_text">Download .zip</span></a>
+            <a class="button" href="{{ site.github.tar_url }}"><span class="button_text">Download .tar.gz</span></a>
         </header>
 
         <main id="content" class="main-content" role="main">
