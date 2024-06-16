@@ -6,6 +6,12 @@
   font-weight: 400;
   src: url('/assets/fonts/mtsans-regular.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'MTSans Bold';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/assets/fonts/mtsans-bold.woff2') format('woff2');
+}
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -587,7 +593,7 @@ a:hover {
 .main-content h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-	font-family: "MTSans Regular";
+	font-family: "MTSans Bold";
     font-weight: normal;
     color: #383838;
 }
