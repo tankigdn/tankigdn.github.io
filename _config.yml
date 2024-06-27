@@ -65,6 +65,12 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+defaults:
+    scope:
+      path: "clans"
+    values:
+      permalink: /:basename
+
 plugins:
   - jekyll-avatar
   - jekyll-coffeescript
