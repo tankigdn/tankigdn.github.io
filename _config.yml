@@ -113,7 +113,6 @@ plugins:
   - jekyll-titles-from-headings
   - jemoji
 
-
 #
 # INCLUDING HOOKS
 # They are optional, change them only if you need
