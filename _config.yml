@@ -66,12 +66,10 @@ kramdown:
   syntax_highlighter: rouge
 
 defaults:
--
     scope:
       path: "clans"
     values:
       permalink: /:basename
- -
     scope:
       path: "" # an empty string here means all files in the project
     values:
